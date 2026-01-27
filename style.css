@@ -1,0 +1,50 @@
+.ig {
+    border-radius: 10%;
+    transition: transform 0.5s;
+}
+.ig:hover {
+    transform: scale(1.1);
+}
+.text{
+    color: rgb(226, 226, 226);
+    font-size: larger;
+}
+.background{
+    background-color: #7e7e7e;
+}
+.logo{
+    height:6vh;
+}
+button{
+    background-color: #E2E2E2;
+    border-radius: 8%;
+    height: 8vh;
+    border: none;
+
+    display: flex; align-items: center; justify-content: center;
+}
+.buttonIg:hover{
+
+    background: linear-gradient(to left, #E2E2E2, #B33131);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.buttonGit:hover{
+    background: linear-gradient(to left, #E2E2E2, #3169b3);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+nav{
+    position: fixed;
+    background-color: azure;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subimg{
+    height: 25vh;
+}
